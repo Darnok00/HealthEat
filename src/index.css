@@ -1,0 +1,92 @@
+@import '/node_modules/slick-carousel/slick/slick.css';
+@import '/node_modules/slick-carousel/slick/slick-theme.css';
+
+body {
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  margin: 0;
+  overflow: hidden;
+}
+
+.element {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-custom {
+  background-color: "transparent";
+  padding: 200px;
+  justify-content: center;
+}
+
+.text-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: "transparent";
+  border-radius: 10px;
+  width: 100%;
+  align-self: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.slick-slide > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Custom button styles */
+.btn-custom {
+  background-color: #6f42c1;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.btn-custom:hover {
+  background-color: #5a32a3;
+}
+
+/* Card title styles */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6f42c1;
+  text-align: center;
+}
+
+/* Customizing slick carousel arrows */
+.slick-next:before {
+  font-size: 4rem;
+  color: #6f42c1;
+}
+
+.slick-prev:before {
+  font-size: 4rem;
+  color: #6f42c1;
+  margin-left: -40px;
+}
+
+/* Selected card styles */
+.border-selected {
+  border: 5px solid #6f42c1 !important;
+}
+
+/* Navigation buttons */
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
